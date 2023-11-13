@@ -1,0 +1,7 @@
+#header .dropdown-user .full_name {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+    text-decoration: none;
+}
