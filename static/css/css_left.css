@@ -38,11 +38,31 @@
     object-fit: cover;
     width: 80px;
 }
+.like-in-block button img{
+    display: block;
+    height: 20px;
+    object-fit: cover;
+    width: 20px;
+}
+.like-in-block button{
+    border: 0;
+    padding: 0;
+    display: block;
+    margin: 5px;
+    height: 20px;
+    object-fit: cover;
+    width: 20px;
+}
+.input-your-answer button{
+    margin-top: 10px;
+}
 .question {
     padding: 10px 20px;    
 }
 
 .pagination, .pagination div {
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -67,6 +87,9 @@
 }
 .like-in-block {
     margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .add-answer-table-item,  .settings-table-item{

@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8" >
     <title>Register</title> 
-    <link rel="stylesheet" href="../static/css/css.css">
     <link rel="stylesheet" href="../static/css/css_base.css">
     <link rel="stylesheet" href="../static/css/css_base_body.css">
     <link rel="stylesheet" href="../static/css/css_left.css">
@@ -20,19 +19,29 @@
             </div>
             <div class="search">
                 <input class="form-control" type="text" placeholder="Search...">
+                <button class="btn btn-link" type="submit"><img class="img-fluid mt-1 mb-0" src="https://cdn.icon-icons.com/icons2/1111/PNG/512/loupe_79257.png" alt="Avatar" width="35" height="25"></button>
                 <button type="submit" class="btn btn-light">Ask!</button>
             </div>
             <div class="stretcher" style="margin: 0 auto"></div>
             <div class="dropdown-user" id="dropdown-user">
                 <img src="../static/img/avatar60.png" class="avatar">
-                <span class="user-name">User Name</span>
+                <span class="user-name" href="#">User Name</span>
             </div>
             <ul class="nav">
                 <li class="settings">
-                    <a>Settings</a>
+                    <a href="#">Settings</a>
                 </li>
                 <li class="log out">
-                    <a>Log out</a>
+                    <a href="#">Log out</a>
+                </li>
+            </ul>
+            <!-- для неавторизованного пользователя -->
+            <ul class="nav">
+                <li class="settings">
+                    <a href="#">Log in</a>
+                </li>
+                <li class="log out">
+                    <a href="#">Register</a>
                 </li>
             </ul>
         </header>
